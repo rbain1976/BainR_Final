@@ -734,20 +734,72 @@
     });
 </script>
 
-<!-- Report Summary -->
+<!-- Results Section -->
 <section class="container mx-auto px-4 py-6">
    <div class="bg-gradient-to-br from-white to-blue-50 rounded-lg border border-blue-100 shadow-lg p-8">
-       <h2 class="text-3xl font-bold mb-6 text-blue-900 tracking-tight">Report Summary</h2>
-       <div class="space-y-4 text-gray-700">
-           <p class="text-lg leading-relaxed tracking-wide">
-               This research documents significant urban expansion in California's High Desert region between 2000 and 2023, with urban area increasing by 156%. The Victorville-Hesperia-Apple Valley tri-city area experienced its most rapid growth during 2005-2010, with an 8.7% annual expansion rate. Urban development primarily occurred along transportation corridors, particularly the I-15, and exhibited radial growth patterns from existing city centers.
-           </p>
-           <p class="text-lg leading-relaxed tracking-wide">
-               The analysis revealed substantial impacts on desert ecosystems, including a 42% reduction in native vegetation cover within newly urbanized areas and a 28% increase in habitat fragmentation. Remote sensing analysis using multiple vegetation indices demonstrated varying levels of ecosystem resilience, with protected areas maintaining 89% of their original vegetation density while unprotected areas showed significant degradation.
-           </p>
-           <p class="text-lg leading-relaxed tracking-wide">
-               Classification accuracy assessments validate the reliability of these findings, with an overall accuracy of 92% and a Kappa coefficient of 0.89. The MSAVI2 index proved particularly effective for monitoring sparse desert vegetation, enabling precise quantification of subtle changes in plant cover. These results provide a strong foundation for future land use planning and conservation efforts in rapidly developing desert regions.
-           </p>
+       <h2 class="text-3xl font-bold mb-6 text-blue-900 tracking-tight">Results</h2>
+       
+       <div class="space-y-6 text-gray-700">
+           <!-- Urban Growth Results -->
+           <div>
+               <h3 class="text-xl font-semibold text-blue-900 mb-3">Urban Expansion Patterns</h3>
+               <ul class="list-disc pl-5 space-y-2 text-lg leading-relaxed">
+                   <li>Total urban area increased by 156% over the 23-year study period (2000-2023)</li>
+                   <li>Peak growth period occurred during 2005-2010 with an annual expansion rate of 8.7%</li>
+                   <li>68% of new development concentrated within 1km of major transportation corridors</li>
+                   <li>Average density of new development (3.2 housing units/acre) significantly lower than older urban cores (8.5 units/acre)</li>
+                   <li>Urban expansion followed radial patterns from existing city centers</li>
+               </ul>
+           </div>
+
+           <!-- Vegetation Change Results -->
+           <div>
+               <h3 class="text-xl font-semibold text-blue-900 mb-3">Vegetation and Ecosystem Impact</h3>
+               <ul class="list-disc pl-5 space-y-2 text-lg leading-relaxed">
+                   <li>42% reduction in native vegetation cover within newly urbanized areas</li>
+                   <li>MSAVI2 analysis revealed more subtle vegetation changes in desert scrub communities</li>
+                   <li>35% of disturbed areas showed natural regeneration within 5 years</li>
+                   <li>45% of impacted areas remained permanently altered</li>
+                   <li>Protected areas maintained 89% of original vegetation density</li>
+                   <li>28% increase in fragmentation of wildlife corridors between major conservation areas</li>
+               </ul>
+           </div>
+
+           <!-- Classification Accuracy -->
+           <div>
+               <h3 class="text-xl font-semibold text-blue-900 mb-3">Classification Performance</h3>
+               <ul class="list-disc pl-5 space-y-2 text-lg leading-relaxed">
+                   <li>Overall classification accuracy achieved 92% with Kappa coefficient of 0.89</li>
+                   <li>Urban areas: 94.2% producer's accuracy, 90.8% user's accuracy</li>
+                   <li>Water bodies: 96.5% producer's accuracy, 93.2% user's accuracy</li>
+                   <li>Bare ground: 89.7% producer's accuracy, 92.1% user's accuracy</li>
+                   <li>Scrub vegetation: 88.5% producer's accuracy, 87.9% user's accuracy</li>
+               </ul>
+           </div>
+
+           <!-- Environmental Implications -->
+           <div>
+               <h3 class="text-xl font-semibold text-blue-900 mb-3">Environmental Changes</h3>
+               <ul class="list-disc pl-5 space-y-2 text-lg leading-relaxed">
+                   <li>Urban heat island effect intensified with average temperature increases of 4.1° F in newly developed areas</li>
+                   <li>15% decrease in natural cooling capacity due to reduced vegetation cover</li>
+                   <li>Loss of 156 hectares of critical desert tortoise habitat</li>
+                   <li>Significant transformation of desert wash ecosystems along development boundaries</li>
+                   <li>Changes in regional biodiversity patterns, particularly affecting desert-adapted species</li>
+               </ul>
+           </div>
+
+           <!-- Development Trends -->
+           <div>
+               <h3 class="text-xl font-semibold text-blue-900 mb-3">Development Characteristics</h3>
+               <ul class="list-disc pl-5 space-y-2 text-lg leading-relaxed">
+                   <li>75% of new growth occurred at urban peripheries</li>
+                   <li>Combined population growth from 200,000 (2000) to 375,000 (2023)</li>
+                   <li>Significant expansion of logistics and industrial facilities along major transportation routes</li>
+                   <li>Development patterns show strong correlation with regional economic growth periods</li>
+                   <li>Emergence of new commercial corridors along previously undeveloped desert areas</li>
+               </ul>
+           </div>
        </div>
    </div>
 </section>
@@ -813,6 +865,57 @@
                     <p class="text-gray-700 mt-1">Urban heat island effect intensified, with newly developed areas showing average temperature increases of 2.3°C compared to surrounding desert. Reduced vegetation cover contributed to 15% decrease in natural cooling capacity.</p>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- Threatened Species Section -->
+<section class="container mx-auto px-4 py-6">
+   <div class="bg-white rounded-lg shadow-lg p-6">
+       <h2 class="text-2xl font-bold text-blue-900 mb-6">Threatened Species in the Study Area</h2>
+       
+       <!-- Desert Tortoise Container -->
+       <div class="flex gap-8 mb-8">
+           <div class="w-1/2">
+               <img src="images/urban/DT.png" alt="Desert Tortoise" class="rounded-lg shadow-md w-full h-auto">
+           </div>
+           <div class="w-1/2 flex flex-col justify-center">
+               <h3 class="text-xl font-bold text-blue-900 mb-3">Mojave Desert Tortoise</h3>
+               <p class="text-gray-700 leading-relaxed">
+                   The Mojave Desert Tortoise (Gopherus agassizii) is listed as threatened under the Endangered Species Act. Within the study area, tortoise populations have experienced significant habitat loss and fragmentation due to urban expansion. The species requires large, continuous areas of desert scrub habitat for survival. Analysis reveals a loss of 156 hectares of critical tortoise habitat between 2000-2023, primarily due to development along transportation corridors and urban peripheries. This habitat loss, combined with increased road mortality and predation pressure from urban-adapted species, poses significant challenges for tortoise conservation in the region.
+               </p>
+           </div>
+       </div>
+
+       <!-- Mohave Ground Squirrel Container -->
+       <div class="flex gap-8">
+           <div class="w-1/2">
+               <img src="images/urban/DS.png" alt="Mohave Ground Squirrel" class="rounded-lg shadow-md w-full h-auto">
+           </div>
+           <div class="w-1/2 flex flex-col justify-center">
+               <h3 class="text-xl font-bold text-blue-900 mb-3">Mohave Ground Squirrel</h3>
+               <p class="text-gray-700 leading-relaxed">
+                   The Mohave Ground Squirrel (Xerospermophilus mohavensis), endemic to the western Mojave Desert, is listed as threatened by the State of California. This species has experienced substantial population decline due to habitat loss and degradation. Analysis shows that urban development has reduced and fragmented key habitat areas, particularly affecting the connectivity between populations. The squirrel's specialized habitat requirements and limited geographic range make it particularly vulnerable to urban expansion. The observed 28% increase in habitat fragmentation throughout the study area has created significant barriers to population movement and genetic exchange.
+               </p>
+           </div>
+       </div>
+   </div>
+</section>
+
+<!-- Conclusion Section -->
+<section class="container mx-auto px-4 py-6">
+    <div class="bg-gradient-to-br from-white to-blue-50 rounded-lg border border-blue-100 shadow-lg p-8">
+        <h2 class="text-3xl font-bold mb-6 text-blue-900 tracking-tight">Conclusion</h2>
+        <div class="space-y-4 text-gray-700">
+            <p class="text-lg leading-relaxed tracking-wide">
+                The analysis of urban expansion in the High Desert region between 2000 and 2023 reveals a landscape undergoing rapid transformation. The 156% increase in urban area, coupled with a 42% reduction in native vegetation cover, demonstrates the significant environmental costs of development. The study's findings, supported by high classification accuracies (92% overall accuracy), provide robust evidence of these changes.
+            </p>
+            <p class="text-lg leading-relaxed tracking-wide">
+                The observed patterns of development, primarily concentrated along transportation corridors and expanding radially from city centers, suggest a need for more strategic growth planning. The lower housing density in new developments (3.2 units/acre) compared to existing urban cores (8.5 units/acre) indicates potential opportunities for more efficient land use. Of particular concern is the 28% increase in habitat fragmentation and the loss of critical wildlife corridors, which could have long-term implications for desert ecosystem health.
+            </p>
+            <p class="text-lg leading-relaxed tracking-wide">
+                Moving forward, these findings emphasize the importance of balanced development approaches that consider both urban growth requirements and ecosystem preservation. The documented increase in urban heat island effects and decrease in natural cooling capacity highlight the need for climate-conscious development strategies. This research provides a foundation for informed decision-making in desert urban planning, suggesting that future development should prioritize both housing density optimization and preservation of critical desert habitats.
+            </p>
         </div>
     </div>
 </section>
